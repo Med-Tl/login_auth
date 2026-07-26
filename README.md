@@ -1,8 +1,6 @@
 # login_auth
-Overall Workflow
-
+# Overall Workflow
 Initially:
-
 User
    │
    ▼
@@ -48,10 +46,13 @@ Compare with user's MFA code
                 No
                 ▼
           login failed
-
 # Run a successful password-only login
-usage: login.py USERNAME PASSWORD : "python3 login.py alice wonderland" ---> login ok
+usage: login.py USERNAME PASSWORD :
+"python3 login.py alice wonderland"
+---> login ok
 BASE = Path("/home/labex/project") ----> change to ur directory "pwd" 
 # mfa-check
-usage: usage: mfa-check.py [password-only|secret|generator|enforced|all] : python3 mfa-check.py password-only ---> password-only: complete
+usage : mfa-check.py [password-only|secret|generator|enforced|all] : 
+python3 mfa-check.py password-only
+---> password-only: complete
  
